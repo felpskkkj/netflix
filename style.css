@@ -1,0 +1,71 @@
+
+
+.naosei{
+    color: white;
+    margin-top: 150px;
+    margin-right: 12px;
+}
+
+body{
+    box-sizing:content-box;
+    margin: 0;
+    padding: 0;
+    color: black;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.letra{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 28pt;
+    font-family: 'Roboto', sans-serif;
+}
+
+.corpo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagemPerfil{
+    width: 180px;
+    cursor: pointer;
+}
+
+.imagens{
+    display: flex;
+    justify-content: center; 
+    
+}
+
+.letrinha{
+    margin-left: 72px;
+    font-size: 15pt;
+    cursor: pointer;
+}
+
+.botao{
+    color: white;
+    display: flex;
+    margin-top: 100px;
+    margin-left: 700px;
+    width: 176px;
+    height: 59px;
+    padding: 18px;
+    font-size: 14pt;
+    cursor:pointer;
+    border: solid grey 1px;
+}
+
+button:hover {
+    border: solid white;
+}
+
+
+.imagemPerfil:hover{
+    border: 2px solid white;
+}
+
+    
